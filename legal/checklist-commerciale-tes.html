@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Checklist Polizza Catastrofale 2026 — Commerciale TES</title>
+<meta name="description" content="La checklist 10 punti per controllare la tua polizza catastrofale 2026. A cura di Commerciale TES." />
+<meta name="robots" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:#0B1A36; --navy-dark:#060F22; --orange:#C85A1F; --orange-dark:#A94915; --orange-light:#E08B4A; --orange-tint:#FAF1E8;
+    --bg:#FBFAF7; --bg-alt:#F4F1EB; --line:#DDD6C7; --text:#0B1A36; --text-mute:#3F4A5E; --text-soft:#5C6678;
+    --font-sans:'Almarai',sans-serif; --font-serif:'Instrument Serif',Georgia,serif; --font-mono:'JetBrains Mono',monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: var(--font-sans); background: #E8E4D9; color: var(--text); padding: 32px 16px; }
+  .page { max-width: 820px; margin: 0 auto 28px; background: white; box-shadow: 0 24px 60px -20px rgba(11,26,54,0.25); position: relative; overflow: hidden; }
+  .page-inner { padding: 56px 64px; }
+  @media (max-width: 700px) { .page-inner { padding: 36px 28px; } }
+  /* Cover */
+  .cover { background: linear-gradient(150deg, var(--navy) 0%, var(--navy-dark) 100%); color: white; padding: 80px 64px 64px; position: relative; overflow: hidden; }
+  .cover::before { content: ""; position: absolute; top: -100px; right: -100px; width: 360px; height: 360px; background: var(--orange); opacity: 0.15; border-radius: 50%; }
+  .cover::after { content: ""; position: absolute; bottom: -180px; left: -120px; width: 420px; height: 420px; border: 2px solid rgba(232,139,74,0.2); border-radius: 50%; }
+  .cover .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 80px; position: relative; z-index: 2; }
+  .cover .brand .ic { width: 36px; height: 36px; background: var(--orange); border-radius: 6px; display: flex; align-items: center; justify-content: center; }
+  .cover .brand .name { font-weight: 800; letter-spacing: 0.08em; font-size: 14px; }
+  .cover .doc-type { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--orange-light); margin-bottom: 18px; position: relative; z-index: 2; }
+  .cover h1 { font-size: clamp(36px, 5.5vw, 56px); font-weight: 700; letter-spacing: -0.02em; line-height: 1.05; margin: 0 0 14px; position: relative; z-index: 2; }
+  .cover h1 .acc { color: var(--orange-light); font-family: var(--font-serif); font-style: italic; font-weight: 400; }
+  .cover .sub { font-size: 17px; color: rgba(255,255,255,0.75); max-width: 540px; line-height: 1.55; position: relative; z-index: 2; }
+  .cover .meta-row { margin-top: 60px; display: flex; gap: 32px; flex-wrap: wrap; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.7); position: relative; z-index: 2; }
+  .cover .meta-row .v { color: white; font-weight: 700; display: block; margin-top: 4px; font-size: 13px; }
+
+  /* Body */
+  .intro { background: var(--orange-tint); border-left: 4px solid var(--orange); padding: 24px 28px; margin-bottom: 36px; }
+  .intro p { margin: 0; color: var(--text-mute); font-size: 15px; line-height: 1.6; }
+  .intro strong { color: var(--text); }
+
+  .check-list { list-style: none; padding: 0; margin: 0; counter-reset: chk; }
+  .check-list li { counter-increment: chk; display: grid; grid-template-columns: 60px 28px 1fr; gap: 16px; align-items: start; padding: 22px 0; border-bottom: 1px solid var(--line); }
+  .check-list li:last-child { border-bottom: none; }
+  .check-list li::before { content: counter(chk, decimal-leading-zero); font-family: var(--font-mono); font-size: 22px; font-weight: 500; color: var(--orange); letter-spacing: 0.04em; }
+  .check-list .box { width: 22px; height: 22px; border: 2px solid var(--navy); border-radius: 4px; margin-top: 2px; }
+  .check-list .body h3 { font-size: 16px; font-weight: 800; color: var(--navy); margin: 0 0 6px; line-height: 1.3; }
+  .check-list .body p { font-size: 14px; color: var(--text-mute); line-height: 1.55; margin: 0; }
+  .check-list .body .hint { display: inline-block; margin-top: 8px; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--orange-dark); background: var(--orange-tint); padding: 4px 8px; border-radius: 3px; }
+
+  .section-h { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--orange-dark); margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+
+  /* CTA finale */
+  .final { background: var(--navy); color: white; padding: 48px 64px; }
+  .final h2 { font-size: 26px; margin: 0 0 10px; letter-spacing: -0.01em; }
+  .final h2 .acc { color: var(--orange-light); font-family: var(--font-serif); font-style: italic; font-weight: 400; }
+  .final p { color: rgba(255,255,255,0.78); font-size: 15px; margin: 0 0 24px; line-height: 1.6; max-width: 580px; }
+  .final .ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+  .final .btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 14px; transition: transform .2s; }
+  .final .btn:hover { transform: translateY(-2px); }
+  .final .btn-orange { background: var(--orange); color: white; }
+  .final .btn-ghost { background: transparent; color: white; border: 1px solid rgba(255,255,255,0.3); }
+
+  /* Foot */
+  .doc-foot { background: var(--navy-dark); color: rgba(255,255,255,0.65); padding: 18px 64px; font-size: 12px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-family: var(--font-mono); letter-spacing: 0.08em; }
+  @media (max-width: 700px) { .cover, .final { padding-left: 28px; padding-right: 28px; } .doc-foot { padding-left: 28px; padding-right: 28px; } }
+
+  /* Print actions */
+  .print-bar { position: fixed; bottom: 22px; right: 22px; display: flex; gap: 10px; z-index: 50; }
+  .print-bar button { background: var(--navy); color: white; border: none; padding: 12px 18px; border-radius: 6px; font-family: var(--font-sans); font-weight: 700; font-size: 13px; cursor: pointer; box-shadow: 0 12px 24px -8px rgba(11,26,54,0.4); }
+  .print-bar button.orange { background: var(--orange); }
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; }
+    .print-bar { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Cover -->
+  <div class="cover">
+    <div class="brand">
+      <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></span>
+      <span class="name">COMMERCIALE TES</span>
+    </div>
+    <div class="doc-type">Documento operativo · 2026</div>
+    <h1>Checklist <span class="acc">Polizza Catastrofale</span><br>10 punti da verificare prima di firmare</h1>
+    <p class="sub">La stessa checklist che usiamo internamente con i nostri clienti industriali per controllare massimali, esclusioni e clausole prima di rinnovare la polizza obbligatoria.</p>
+    <div class="meta-row">
+      <div>Documento<span class="v">CT-PCT-2026-01</span></div>
+      <div>Aggiornata<span class="v">Maggio 2026</span></div>
+      <div>Per<span class="v">Imprese industriali</span></div>
+    </div>
+  </div>
+
+  <div class="page-inner">
+
+    <div class="intro">
+      <p><strong>Come si usa.</strong> Stampa o salva questo PDF. Quando ricevi la proposta dal broker, controlla i 10 punti uno a uno: spunta la casella se il punto è coperto, lascia vuoto se non lo è. <strong>Ogni casella vuota è una domanda da fare al broker prima di firmare.</strong></p>
+    </div>
+
+    <div class="section-h">Sezione A · Massimali e valore assicurato</div>
+    <ol class="check-list">
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Valore di ricostruzione, non valore di mercato</h3><p>Il massimale deve coprire il costo per ricostruire l'immobile a nuovo, non il prezzo di mercato. Differenza tipica: 30–60%.</p><span class="hint">Riferimento: art. 1908 c.c. + capitolato tecnico</span></div>
+      </li>
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Macchinari e merci inclusi separatamente</h3><p>Il fabbricato è una voce, macchinari e scorte sono altre due voci. Verifica che siano elencate distintamente con massimali coerenti.</p></div>
+      </li>
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Adeguamento automatico del massimale</h3><p>Clausola di indicizzazione ISTAT o di rivalutazione triennale. Senza, in 5 anni il massimale può perdere il 15–20% di valore reale.</p></div>
+      </li>
+    </ol>
+
+    <div class="section-h">Sezione B · Esclusioni e franchigie</div>
+    <ol class="check-list" start="4">
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Le 4 esclusioni standard sono state rimosse o limitate?</h3><p>Solitamente escluse: danni indiretti, perdita di profitto, danni a fondazioni, eventi successivi entro 72h. Negoziale.</p><span class="hint">Verifica con il broker</span></div>
+      </li>
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Franchigia in valore assoluto, non in percentuale</h3><p>Una franchigia del 10% su un valore di 5 milioni significa 500.000 € a tuo carico. Negoziare un cap massimo.</p></div>
+      </li>
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Scoperto distinto da franchigia</h3><p>Lo scoperto è la quota a tuo carico anche oltre la franchigia. Verifica che non si sommino.</p></div>
+      </li>
+    </ol>
+
+    <div class="section-h">Sezione C · Premio e classe di rischio</div>
+    <ol class="check-list" start="7">
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Classe di rischio sismico dichiarata correttamente</h3><p>Una classe sismica certificata superiore (es. da E a C) può ridurre il premio fino al 60%. Spesso il broker non chiede la classificazione.</p><span class="hint">Hai il certificato di classe sismica? In caso contrario, contattaci.</span></div>
+      </li>
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Clausola di rinegoziazione triennale</h3><p>Diritto a rinegoziare il premio dopo interventi di miglioramento sismico documentati. Inserire come clausola scritta.</p></div>
+      </li>
+    </ol>
+
+    <div class="section-h">Sezione D · Tempi e adempimenti</div>
+    <ol class="check-list" start="9">
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Tempi di liquidazione massimi indicati</h3><p>Per legge entro 60 giorni dal completamento della perizia. Verifica che non ci siano clausole sospensive che dilatino i tempi.</p></div>
+      </li>
+      <li>
+        <div class="box"></div>
+        <div class="body"><h3>Documenti tecnici allegati alla polizza</h3><p>Certificato di agibilità, eventuale valutazione di vulnerabilità sismica, ultima perizia. La compagnia non può contestare a posteriori dati che ha già visto.</p></div>
+      </li>
+    </ol>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="final">
+    <h2>Hai trovato <span class="acc">caselle vuote?</span></h2>
+    <p>Sono i punti su cui possiamo aiutarti — sopralluogo + analisi della tua polizza attuale, gratis e senza impegno. In 15 minuti capiamo se c'è margine di risparmio reale.</p>
+    <div class="ctas">
+      <a class="btn btn-orange" href="tel:+393487476433">📞 348 7476433 — Mauro Munaretto</a>
+      <a class="btn btn-ghost" href="mailto:mauro@commercialetes.it">✉ mauro@commercialetes.it</a>
+    </div>
+  </div>
+
+  <div class="doc-foot">
+    <div>COMMERCIALE TES · P.IVA 01638090249</div>
+    <div>STR. CA' BALBI 230, VICENZA · CT-PCT-2026-01</div>
+  </div>
+
+</div>
+
+<div class="print-bar">
+  <button onclick="window.print()">📄 Stampa / Salva PDF</button>
+  <button class="orange" onclick="window.location.href='../Commerciale TES v4 - Pro.html#contatti'">Richiedi sopralluogo →</button>
+</div>
+
+</body>
+</html>

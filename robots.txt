@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /legal/checklist-commerciale-tes.pdf
+
+Sitemap: https://commercialetes.it/sitemap.xml

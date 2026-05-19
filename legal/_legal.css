@@ -1,0 +1,66 @@
+/* Stili condivisi per pagine legali, blog e checklist Commerciale TES */
+:root {
+  --navy:        #0B1A36;
+  --navy-dark:   #060F22;
+  --navy-soft:   #142647;
+  --orange:      #C85A1F;
+  --orange-dark: #A94915;
+  --orange-light:#E08B4A;
+  --orange-tint: #FAF1E8;
+  --bg:        #FBFAF7;
+  --bg-alt:    #F4F1EB;
+  --line:      #DDD6C7;
+  --line-soft: #EAE5D8;
+  --text:      #0B1A36;
+  --text-mute: #3F4A5E;
+  --text-soft: #5C6678;
+  --font-sans:  'Almarai', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-mono:  'JetBrains Mono', ui-monospace, monospace;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--font-sans); background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; line-height: 1.6; }
+a { color: var(--orange-dark); text-decoration: underline; text-underline-offset: 3px; }
+a:hover { color: var(--orange); }
+.container { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+
+/* Top bar */
+.legal-top { background: var(--navy); color: white; padding: 18px 0; border-bottom: 3px solid var(--orange); }
+.legal-top .container { max-width: 1280px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.legal-brand { display: flex; align-items: center; gap: 12px; color: white; text-decoration: none; }
+.legal-brand .ic { width: 32px; height: 32px; background: var(--orange); border-radius: 6px; display: flex; align-items: center; justify-content: center; }
+.legal-brand .name { font-weight: 800; letter-spacing: 0.04em; font-size: 14px; }
+.legal-back { color: white; text-decoration: none; font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; opacity: 0.8; }
+.legal-back:hover { opacity: 1; color: var(--orange-light); }
+
+/* Hero compatto */
+.legal-hero { background: var(--bg-alt); padding: 64px 0 48px; border-bottom: 1px solid var(--line); }
+.legal-hero .eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--orange-dark); margin-bottom: 14px; }
+.legal-hero h1 { font-size: clamp(32px, 4.4vw, 48px); font-weight: 700; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 14px; }
+.legal-hero .meta { color: var(--text-soft); font-size: 14px; }
+
+/* Body */
+.legal-body { padding: 56px 0 96px; }
+.legal-body h2 { font-size: 24px; margin: 40px 0 14px; letter-spacing: -0.01em; }
+.legal-body h3 { font-size: 18px; margin: 28px 0 8px; color: var(--navy); }
+.legal-body p, .legal-body li { font-size: 16px; color: var(--text-mute); }
+.legal-body strong { color: var(--text); }
+.legal-body ul, .legal-body ol { padding-left: 22px; }
+.legal-body li { margin: 6px 0; }
+.legal-body table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14px; }
+.legal-body th, .legal-body td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+.legal-body th { background: var(--bg-alt); font-weight: 700; }
+
+.callout { background: white; border: 1px solid var(--line); border-left: 3px solid var(--orange); border-radius: 4px; padding: 18px 20px; margin: 22px 0; }
+.callout .lbl { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--orange-dark); margin-bottom: 6px; }
+
+.cta-block { margin-top: 40px; padding: 28px; background: var(--navy); color: white; border-radius: 8px; }
+.cta-block h3 { color: white; margin: 0 0 8px; font-size: 20px; }
+.cta-block p { color: rgba(255,255,255,0.8); margin: 0 0 18px; }
+.cta-block .btn { display: inline-flex; align-items: center; gap: 10px; background: var(--orange); color: white; padding: 14px 22px; border-radius: 6px; font-weight: 700; text-decoration: none; transition: background .2s; }
+.cta-block .btn:hover { background: var(--orange-dark); color: white; }
+
+/* Footer */
+.legal-foot { background: var(--navy-dark); color: rgba(255,255,255,0.7); padding: 36px 0; font-size: 13px; }
+.legal-foot .container { max-width: 1280px; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; }
+.legal-foot a { color: rgba(255,255,255,0.85); }
