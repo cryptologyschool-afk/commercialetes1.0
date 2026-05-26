@@ -19,32 +19,26 @@
       ]
     }
   ],
-  "redirects": [
-    {
-      "source": "/sismabonus",
-      "destination": "/#faq",
-      "permanent": true
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/i-nostri-clienti-commerciale-tes",
-      "destination": "/#casi",
-      "permanent": true
-    }
- ],
-  "redirects": [
-    {
-      "source": "/azienda-commerciale-tes",
-      "destination": "/#team",
-      "permanent": true
-    }
- ],
-  "redirects": [
-    {
-      "source": "/come-lavoriamo",
-      "destination": "/#faq",
-      "permanent": true
-    }
- ]
+"redirects": [
+  {
+    "source": "/sismabonus",
+    "destination": "/#faq",
+    "permanent": true
+  },
+  {
+    "source": "/i-nostri-clienti-commerciale-tes",
+    "destination": "/#casi",
+    "permanent": true
+  },
+  {
+    "source": "/azienda-commerciale-tes",
+    "destination": "/#team",
+    "permanent": true
+  },
+  {
+    "source": "/come-lavoriamo",
+    "destination": "/#faq",
+    "permanent": true
+  }
+]
 }
