@@ -32,5 +32,12 @@
       "destination": "/#casi",
       "permanent": true
     }
+ ],
+  "redirects": [
+    {
+      "source": "/azienda-commerciale-tes",
+      "destination": "/#team",
+      "permanent": true
+    }
  ]
 }
