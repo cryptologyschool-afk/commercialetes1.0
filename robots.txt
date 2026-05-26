@@ -1,5 +1,68 @@
+# Commerciale TES — robots.txt
+# Aggiornato: 2026-05
+
 User-agent: *
 Allow: /
-Disallow: /legal/checklist-commerciale-tes.pdf
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /*?utm_*
+Disallow: /*?fbclid*
+Disallow: /*?gclid*
+Disallow: /uploads/temp/
 
+# AI / LLM crawlers — esplicitamente AUTORIZZATI
+# Vogliamo essere citati da ChatGPT, Claude, Gemini, Perplexity
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Bing — obbligatorio per visibilità su Copilot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap
 Sitemap: https://commercialetes.it/sitemap.xml
+Sitemap: https://commercialetes.it/sitemap-news.xml
