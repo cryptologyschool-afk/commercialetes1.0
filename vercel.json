@@ -39,5 +39,12 @@
       "destination": "/#team",
       "permanent": true
     }
+ ],
+  "redirects": [
+    {
+      "source": "/come-lavoriamo",
+      "destination": "/#faq",
+      "permanent": true
+    }
  ]
 }
