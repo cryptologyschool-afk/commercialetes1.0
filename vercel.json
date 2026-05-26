@@ -22,7 +22,7 @@
   "redirects": [
     {
       "source": "/sismabonus",
-      "destination": "/faq",
+      "destination": "/#faq",
       "permanent": true
     }
   ]
