@@ -21,8 +21,8 @@
   ],
   "redirects": [
     {
-      "source": "/servizi",
-      "destination": "/miglioramento-sismico",
+      "source": "/sismabonus",
+      "destination": "/faq",
       "permanent": true
     }
   ]
